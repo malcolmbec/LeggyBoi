@@ -20,7 +20,6 @@ public class CCTV : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Collision!");
             anim.enabled = false;
             spr.color = triggerColor;
         }
